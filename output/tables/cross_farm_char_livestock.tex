@@ -1,0 +1,29 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular*}{\hsize}{@{\hskip\tabcolsep\extracolsep\fill}l*{7}{c}}
+\toprule
+Dep. Var.: N. Livestock&      (1)         &      (2)         &      (3)         &      (4)         &      (5)         &      (6)         &      (7)         \\
+\midrule
+1(Post 1st survey)&    0.217\sym{***}&    0.237\sym{***}&    0.353\sym{***}&    0.190\sym{***}&    0.272\sym{***}&    0.242\sym{**} &    0.180\sym{***}\\
+                &   (5.15)         &   (3.05)         &   (3.74)         &   (2.67)         &   (2.67)         &   (2.06)         &   (2.78)         \\
+1(Post 1st survey) $\times$ 1(Age $>$ Med.)&    0.084         &                  &                  &                  &                  &                  &                  \\
+                &   (1.10)         &                  &                  &                  &                  &                  &                  \\
+1(Post 1st survey) $\times$ 1(House. Head Male)&                  &    0.036         &                  &                  &                  &                  &                  \\
+                &                  &   (0.33)         &                  &                  &                  &                  &                  \\
+1(Post 1st survey) $\times$ 1(Adult Most Edu.)&                  &                  &   -0.145         &                  &                  &                  &                  \\
+                &                  &                  &  (-1.20)         &                  &                  &                  &                  \\
+1(Post 1st survey) $\times$ 1(Child. to Tot. $>$ Med.)&                  &                  &                  &    0.116         &                  &                  &                  \\
+                &                  &                  &                  &   (0.93)         &                  &                  &                  \\
+1(Post 1st survey) $\times$ 1(Worried Food)&                  &                  &                  &                  &   -0.019         &                  &                  \\
+                &                  &                  &                  &                  &  (-0.14)         &                  &                  \\
+1(Post 1st survey) $\times$ 1(Lacked Food)&                  &                  &                  &                  &                  &    0.024         &                  \\
+                &                  &                  &                  &                  &                  &   (0.19)         &                  \\
+1(Post 1st survey) $\times$ 1(Farm Size $>$ Med.)&                  &                  &                  &                  &                  &                  &    0.141         \\
+                &                  &                  &                  &                  &                  &                  &   (1.10)         \\
+\midrule
+Farm F.E.       &        Y         &        Y         &        Y         &        Y         &        Y         &        Y         &        Y         \\
+Month F.E.      &        Y         &        Y         &        Y         &        Y         &        Y         &        Y         &        Y         \\
+Observations    &      514         &      514         &      514         &      408         &      512         &      512         &      476         \\
+\bottomrule
+\end{tabular*}
+}

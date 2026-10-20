@@ -1,0 +1,6 @@
+# Python environment created by uv (recreate with `uv sync`)
+.venv/
+__pycache__/
+*.pyc
+# Stata batch logs written next to the do-file when launched from another folder
+run_demo.log

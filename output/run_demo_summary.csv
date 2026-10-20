@@ -1,0 +1,15 @@
+program,script,rc,seconds
+sum_stats_farms,02,0,.1
+sum_stats_evi,02,0,.1
+wb_comparison,02,0,2.1
+single_multi_comparison,02,0,.2
+baseline,03,0,3.6
+leave_one_out,03,0,6
+median_reg,03,0,.4
+plots_wealth,03,0,1.4
+evi_analysis,03,0,32.2
+evi_robustness,03,0,34.9
+trees_crops,03,0,1.9
+channel,03,0,.5
+health,03,0,1.2
+add_rob,03,0,1.3
